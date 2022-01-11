@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+body {
+    line-height: 1.7;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvertica Neue", "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    color; #000;
+}
+/* header */
+
+header img {
+    border-radius: 50%;
+    background: lightgray;
+    margin:0 auto 0 150px ;
+}
+
+header nav ul{
+  display: flex;
+  padding: 10px 15px;
+  justify-content: right;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a:link {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}    
+header nav ul li a:visited {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: purple;
+}
+header nav ul li a:hover {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: underline;
+    color: blue;
+}
+
+div {
+	text-align: center;
+	display: block;
+}
+div p {
+	text-align: left;
+	display: inline-block;
+}
+
+div table {
+	text-align: left;
+	
+}
+
+#table11 {
+    color: orange;
+}
+
+#table12 {
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    background: lightyellow;
+    margin: 0px auto 0px;
+    width: 1000px;
+    text-align: left;
+}
+table th, table td {
+    border: solid 1px black;
+}
+
+h1 {
+    text-align: center;
+    justify-content: flex-start;
+}
+
+
+
+textarea {
+    width: 1000px;
+    font-size: 1em;
+    padding: 5px;
+    margin: 10px auto 10px;
+    text-align: left
+}
+
+form {
+    text-align: center
+}
+
+button {
+  display: block;
+  margin: 0 0 0 auto;
+  background: black;
+  color: white;
+}    
+
+/* footer */
+footer {
+text-align: center;
+background: black;
+color: white;
+margin: 20px auto;
+padding: auto;
+}
